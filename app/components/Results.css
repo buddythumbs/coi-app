@@ -1,0 +1,15 @@
+.label-draft{
+  background-color: #3A3F44
+}
+.label-submit{
+  background-color: #7A8288;
+}
+.label-approve{
+  background-color: #F89406
+}
+.label-execute{
+  background-color: #EE5F5B
+}
+.label-complete,{
+  background-color: #34B233
+}

@@ -185,9 +185,17 @@
     "webpack-merge": "^4.1.0"
   },
   "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-select": "^1.12.2",
+    "classnames": "^2.2.5",
     "electron-debug": "^1.1.0",
     "font-awesome": "^4.7.0",
     "history": "^4.6.1",
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4",
+    "material-ui": "^0.18.3",
+    "material-ui-icons": "^1.0.0-alpha.3",
+    "moment": "^2.18.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-hot-loader": "3.0.0-beta.6",
@@ -195,9 +203,12 @@
     "react-router": "^4.1.1",
     "react-router-dom": "^4.1.1",
     "react-router-redux": "^5.0.0-alpha.6",
+    "react-tap-event-plugin": "^2.0.1",
     "redux": "^3.6.0",
     "redux-thunk": "^2.2.0",
-    "source-map-support": "^0.4.15"
+    "source-map-support": "^0.4.15",
+    "sp-request": "^2.0.3",
+    "uuid": "^3.0.1"
   },
   "devEngines": {
     "node": ">=6.x",

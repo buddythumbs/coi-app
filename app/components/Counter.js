@@ -18,7 +18,7 @@ class Counter extends Component {
       <div>
         <div className={styles.backButton} data-tid="backButton">
           <Link to="/">
-            <i className="fa fa-arrow-left fa-3x" />
+            <i className="zmdi zmdi-arrow-left zmdi-hc-3x" />
           </Link>
         </div>
         <div className={`counter ${styles.counter}`} data-tid="counter">
@@ -26,10 +26,10 @@ class Counter extends Component {
         </div>
         <div className={styles.btnGroup}>
           <button className={styles.btn} onClick={increment} data-tclass="btn">
-            <i className="fa fa-plus" />
+            <i className="zmdi zmdi-plus" />
           </button>
           <button className={styles.btn} onClick={decrement} data-tclass="btn">
-            <i className="fa fa-minus" />
+            <i className="zmdi zmdi-minus" />
           </button>
           <button className={styles.btn} onClick={incrementIfOdd} data-tclass="btn">odd</button>
           <button className={styles.btn} onClick={() => incrementAsync()} data-tclass="btn">async</button>

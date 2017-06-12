@@ -1,0 +1,92 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "sharepointplus",
+        "scope": null,
+        "escapedName": "sharepointplus",
+        "name": "sharepointplus",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Users\\moleary\\Projects\\electron-es6-react"
+    ]
+  ],
+  "_from": "sharepointplus@latest",
+  "_id": "sharepointplus@4.0.0",
+  "_inCache": true,
+  "_location": "/sharepointplus",
+  "_nodeVersion": "6.10.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/sharepointplus-4.0.0.tgz_1493883094050_0.3744163094088435"
+  },
+  "_npmUser": {
+    "name": "aymkdn",
+    "email": "npm_only@kodono.info"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "sharepointplus",
+    "scope": null,
+    "escapedName": "sharepointplus",
+    "name": "sharepointplus",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/sharepointplus/-/sharepointplus-4.0.0.tgz",
+  "_shasum": "994152a90f886f1a715fe8b150687bb95883d332",
+  "_shrinkwrap": null,
+  "_spec": "sharepointplus",
+  "_where": "C:\\Users\\moleary\\Projects\\electron-es6-react",
+  "author": {
+    "name": "AymKdn"
+  },
+  "bugs": {
+    "url": "https://github.com/Aymkdn/SharepointPlus/issues"
+  },
+  "dependencies": {
+    "sp-request": ">= 1.1.5",
+    "xmldom": ">= 0.1.27"
+  },
+  "description": "A library that offers an easy interface to deal with Sharepoint",
+  "devDependencies": {},
+  "directories": {
+    "doc": "docs"
+  },
+  "dist": {
+    "shasum": "994152a90f886f1a715fe8b150687bb95883d332",
+    "tarball": "https://registry.npmjs.org/sharepointplus/-/sharepointplus-4.0.0.tgz"
+  },
+  "gitHead": "a4dd9b96dc30139a67fc13a7969d0f34f1c003c0",
+  "homepage": "http://aymkdn.github.io/SharepointPlus/",
+  "keywords": [
+    "sharepoint"
+  ],
+  "license": "GPL-3.0",
+  "main": "sharepointplus-4.0.js",
+  "maintainers": [
+    {
+      "name": "aymkdn",
+      "email": "npm_only@kodono.info"
+    }
+  ],
+  "name": "sharepointplus",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aymkdn/SharepointPlus.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "4.0.0"
+}
