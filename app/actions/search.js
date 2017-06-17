@@ -84,6 +84,7 @@ export const SUBSYSTEM_SEARCH_STRING = 'SUBSYSTEM_SEARCH_STRING';
 export const UPDATE_SEARCH_STRING = 'UPDATE_SEARCH_STRING';
 export const COI_RECEIVED = 'COI_RECEIVED';
 export const FETCH_COI = 'FETCH_COI';
+export const TOGGLE_DRAWER = 'TOGGLE_DRAWER';
 
 export function receive() {
   return {
@@ -229,4 +230,9 @@ export function searchCOI(stateObj) {
     });
   }
 
+}
+export function toggleDrawer() {
+  return {
+    type:TOGGLE_DRAWER
+  }
 }

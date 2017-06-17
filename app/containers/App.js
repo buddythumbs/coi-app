@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import type { Children } from 'react';
 import Header from '../components/Header'
+import SideBar from '../components/SideBar'
 
 const styles = {
   body: {
@@ -17,6 +18,7 @@ export default class App extends Component {
     return (
       <div>
         <Header/>
+        <SideBar/>
         <div style={styles.body} className="container-fluid body">
           {this.props.children}
         </div>

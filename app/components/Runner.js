@@ -19,35 +19,21 @@ export default class Runner extends Component {
           <TableRow>
             <TableHeaderColumn>ID</TableHeaderColumn>
             <TableHeaderColumn>Name</TableHeaderColumn>
-            <TableHeaderColumn>Status</TableHeaderColumn>
+            <TableHeaderColumn>length</TableHeaderColumn>
           </TableRow>
         </TableHeader>
         <TableBody>
-          <TableRow>
-            <TableRowColumn>1</TableRowColumn>
-            <TableRowColumn>John Smith</TableRowColumn>
-            <TableRowColumn>Employed</TableRowColumn>
-          </TableRow>
-          <TableRow>
-            <TableRowColumn>2</TableRowColumn>
-            <TableRowColumn>Randal White</TableRowColumn>
-            <TableRowColumn>Unemployed</TableRowColumn>
-          </TableRow>
-          <TableRow>
-            <TableRowColumn>3</TableRowColumn>
-            <TableRowColumn>Stephanie Sanders</TableRowColumn>
-            <TableRowColumn>Employed</TableRowColumn>
-          </TableRow>
-          <TableRow>
-            <TableRowColumn>4</TableRowColumn>
-            <TableRowColumn>Steve Brown</TableRowColumn>
-            <TableRowColumn>Employed</TableRowColumn>
-          </TableRow>
-          <TableRow>
-            <TableRowColumn>5</TableRowColumn>
-            <TableRowColumn>Christopher Nolan</TableRowColumn>
-            <TableRowColumn>Unemployed</TableRowColumn>
-          </TableRow>
+        {
+          coi.actions.map((fms,i) => {
+            return (
+              <TableRow key={i}>
+                <TableRowColumn>{fms.queue.index}</TableRowColumn>
+                <TableRowColumn>{fms.id}</TableRowColumn>
+                <TableRowColumn>{fms.queue.steps.length}</TableRowColumn>
+              </TableRow>
+            )
+          })
+        }
         </TableBody>
       </Table>
     )

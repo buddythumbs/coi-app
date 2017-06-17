@@ -6,7 +6,8 @@ import {
   STATUS_SEARCH_STRING,
   SUBSYSTEM_SEARCH_STRING,
   UPDATE_SEARCH_STRING,
-  COI_RECEIVED
+  COI_RECEIVED,
+  TOGGLE_DRAWER
 } from '../actions/search';
 
 export type searchStateType = {
@@ -34,7 +35,8 @@ export default function search(state={
     searchSubsystem: [],
     searchString: '',
     query:'',
-    coi:{}
+    coi:{},
+    sidebar:false
   },action) {
   switch (action.type) {
     case SEARCH_COIS:
@@ -81,6 +83,12 @@ export default function search(state={
       state = {
         ...state,
         coi: action.payload
+      }
+      break;
+    case TOGGLE_DRAWER:
+      state = {
+        ...state,
+        sidebar: !state.sidebar
       }
       break;
     default:
