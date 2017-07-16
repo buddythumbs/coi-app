@@ -1,7 +1,6 @@
 // @flow
 import type { searchStateType } from '../reducers/search';
 import * as jQuery from 'jquery';
-import {$SP} from 'sharepointplus'
 import _ from 'lodash'
 import moment from 'moment'
 

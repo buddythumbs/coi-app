@@ -18,33 +18,17 @@ const styles = {
   }
 };
 
-
-const Menu = (props) => (
-  <IconMenu
-    {...props}
-    iconButtonElement={
-      <IconButton><MoreVertIcon /></IconButton>
-    }
-    targetOrigin={{horizontal: 'right', vertical: 'top'}}
-    anchorOrigin={{horizontal: 'right', vertical: 'top'}}
-  >
-    <Link to="/"><MenuItem primaryText="Home" /></Link>
-    <Link to="/counter"><MenuItem primaryText="Counter" /></Link>
-    <Link to="/search"><MenuItem primaryText="Search" /></Link>
-    <Link to="/runner"><MenuItem primaryText="Runner" /></Link>
-  </IconMenu>
-);
-
 class Header extends Component {
-  drawer = () => {
+  toggleDrawer = () => {
     this.props.dispatch(toggleDrawer())
   }
   render(){
     return(
       <AppBar
         title={<span style={styles.title}>ASML Ireland COI App</span>}
-        iconElementRight={<Menu />}
-        onLeftIconButtonTouchTap={this.drawer}
+        // iconElementRight={<Menu />}
+        onLeftIconButtonTouchTap={this.toggleDrawer}
+        // onRightIconButtonTouchTap={this.toggleDrawer}
         style={styles.appBar}
       />
     )
